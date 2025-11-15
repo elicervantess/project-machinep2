@@ -1,5 +1,12 @@
 data/
 outputs/
+!outputs/
+outputs/*
+!outputs/train_meta_used.csv
+!outputs/features_reduced_pca.npy
+!outputs/coords2d_pca.npy
+!outputs/pca_mean.npy
+!outputs/pca_components.npy
 __pycache__/
 *.pyc
 .DS_Store
