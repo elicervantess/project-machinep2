@@ -132,8 +132,22 @@ def davies_bouldin_index(X, labels):
 # Utilidades de datos
 # =========================
 
+def _ensure_artifact(path, friendly_name):
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f"No se encontró {friendly_name} en '{path}'. "
+            "Ejecuta 'python train_pipeline.py' localmente y sube los artefactos generados."
+        )
+    return path
+
 @st.cache_resource
 def load_artifacts():
+    _ensure_artifact(TRAIN_META_FILTERED_CSV, "train_meta_used.csv")
+    _ensure_artifact(FEATURES_PCA, "features_reduced_pca.npy")
+    _ensure_artifact(COORDS_2D, "coords2d_pca.npy")
+    _ensure_artifact(PCA_MEAN_NPY, "pca_mean.npy")
+    _ensure_artifact(PCA_COMPONENTS_NPY, "pca_components.npy")
+
     df_train = pd.read_csv(TRAIN_META_FILTERED_CSV)
     X_train = np.load(FEATURES_PCA)  # (N, k)
     coords2d = np.load(COORDS_2D)    # (N, 2)
