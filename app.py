@@ -13,10 +13,15 @@ from src.dimensionality import pca_transform
 from src.config import (
     OUTPUT_DIR,
     TRAIN_META_FILTERED_CSV,
+    TRAIN_META_FILTERED_CSV_FALLBACK,
     FEATURES_PCA,
+    FEATURES_PCA_FALLBACK,
     PCA_MEAN_NPY,
+    PCA_MEAN_NPY_FALLBACK,
     PCA_COMPONENTS_NPY,
+    PCA_COMPONENTS_NPY_FALLBACK,
     COORDS_2D,
+    COORDS_2D_FALLBACK,
 )
 
 # =========================
@@ -132,27 +137,45 @@ def davies_bouldin_index(X, labels):
 # Utilidades de datos
 # =========================
 
-def _ensure_artifact(path, friendly_name):
-    if not os.path.exists(path):
-        raise FileNotFoundError(
-            f"No se encontró {friendly_name} en '{path}'. "
-            "Ejecuta 'python train_pipeline.py' localmente y sube los artefactos generados."
-        )
-    return path
+def _ensure_artifact(path, friendly_name, fallback_path=None):
+    """
+    Verifica que exista el artefacto en `path` o, si no está,
+    intenta devolver `fallback_path` (artefacto empaquetado en el repo).
+    """
+    if os.path.exists(path):
+        return path
+    if fallback_path and os.path.exists(fallback_path):
+        return fallback_path
+    raise FileNotFoundError(
+        f"No se encontró {friendly_name}.\n"
+        f"Buscado en: '{path}'"
+        + (f" y '{fallback_path}'" if fallback_path else "")
+        + ". Genera los artefactos ejecutando 'python train_pipeline.py'."
+    )
 
 @st.cache_resource
 def load_artifacts():
-    _ensure_artifact(TRAIN_META_FILTERED_CSV, "train_meta_used.csv")
-    _ensure_artifact(FEATURES_PCA, "features_reduced_pca.npy")
-    _ensure_artifact(COORDS_2D, "coords2d_pca.npy")
-    _ensure_artifact(PCA_MEAN_NPY, "pca_mean.npy")
-    _ensure_artifact(PCA_COMPONENTS_NPY, "pca_components.npy")
+    train_csv_path = _ensure_artifact(
+        TRAIN_META_FILTERED_CSV, "train_meta_used.csv", TRAIN_META_FILTERED_CSV_FALLBACK
+    )
+    features_path = _ensure_artifact(
+        FEATURES_PCA, "features_reduced_pca.npy", FEATURES_PCA_FALLBACK
+    )
+    coords_path = _ensure_artifact(
+        COORDS_2D, "coords2d_pca.npy", COORDS_2D_FALLBACK
+    )
+    pca_mean_path = _ensure_artifact(
+        PCA_MEAN_NPY, "pca_mean.npy", PCA_MEAN_NPY_FALLBACK
+    )
+    pca_components_path = _ensure_artifact(
+        PCA_COMPONENTS_NPY, "pca_components.npy", PCA_COMPONENTS_NPY_FALLBACK
+    )
 
-    df_train = pd.read_csv(TRAIN_META_FILTERED_CSV)
-    X_train = np.load(FEATURES_PCA)  # (N, k)
-    coords2d = np.load(COORDS_2D)    # (N, 2)
-    pca_mean = np.load(PCA_MEAN_NPY) # (d_orig,)
-    pca_components = np.load(PCA_COMPONENTS_NPY) # (d_orig, k)
+    df_train = pd.read_csv(train_csv_path)
+    X_train = np.load(features_path)  # (N, k)
+    coords2d = np.load(coords_path)    # (N, 2)
+    pca_mean = np.load(pca_mean_path) # (d_orig,)
+    pca_components = np.load(pca_components_path) # (d_orig, k)
 
     # sacamos el año del título para filtrado por año
     years = []
