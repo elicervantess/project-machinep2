@@ -338,6 +338,8 @@ def embed_uploaded_image(pil_img, pca_mean, pca_components):
     - extrae features visuales crudas
     - proyecta al espacio PCA entrenado (mismas componentes)
     """
+    # Crear directorio OUTPUT_DIR si no existe
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     tmp_path = os.path.join(OUTPUT_DIR, "_tmp_query_image.jpg")
     pil_img.save(tmp_path)
 
