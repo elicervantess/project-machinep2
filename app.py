@@ -12,6 +12,7 @@ from src.feature_extractor import extract_features_for_image
 from src.dimensionality import pca_transform
 from src.config import (
     OUTPUT_DIR,
+    APP_ARTIFACTS_DIR,
     TRAIN_META_FILTERED_CSV,
     TRAIN_META_FILTERED_CSV_FALLBACK,
     FEATURES_PCA,
