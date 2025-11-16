@@ -1,0 +1,136 @@
+movieId,title,genres,(no genres listed),Action,Adventure,Animation,Children,Comedy,Crime,Documentary,Drama,Fantasy,Film-Noir,Horror,IMAX,Musical,Mystery,Romance,Sci-Fi,Thriller,War,Western,poster_path,cluster_kmeans
+179,Mad Love (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Mad_Love_1995.jpg,5
+113,Before and After (1996),Drama|Mystery,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,data/posters/Before_and_After_1996.jpg,5
+27,Now and Then (1995),Children|Drama,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Now_and_Then_1995.jpg,6
+501,Naked (1993),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Naked_1993.jpg,6
+368,Maverick (1994),Adventure|Comedy|Western,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,data/posters/Maverick_1994.jpg,11
+57,Home for the Holidays (1995),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Home_for_the_Holidays_1995.jpg,11
+220,Castle Freak (1995),Horror,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,data/posters/Castle_Freak_1995.jpg,1
+263,Ladybird Ladybird (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Ladybird_Ladybird_1994.jpg,11
+434,Cliffhanger (1993),Action|Adventure|Thriller,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Cliffhanger_1993.jpg,11
+256,Junior (1994),Comedy|Sci-Fi,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,data/posters/Junior_1994.jpg,5
+337,What's Eating Gilbert Grape (1993),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Whats_Eating_Gilbert_Grape_1993.jpg,0
+497,Much Ado About Nothing (1993),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Much_Ado_About_Nothing_1993.jpg,6
+95,Broken Arrow (1996),Action|Adventure|Thriller,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Broken_Arrow_1996.jpg,8
+480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,data/posters/Jurassic_Park_1993.jpg,2
+429,Cabin Boy (1994),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Cabin_Boy_1994.jpg,5
+382,Wolf (1994),Drama|Horror|Romance|Thriller,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,data/posters/Wolf_1994.jpg,8
+38,It Takes Two (1995),Children|Comedy,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/It_Takes_Two_1995.jpg,1
+210,Wild Bill (1995),Western,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,data/posters/Wild_Bill_1995.jpg,4
+259,Kiss of Death (1995),Crime|Drama|Thriller,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Kiss_of_Death_1995.jpg,5
+489,Made in America (1993),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Made_in_America_1993.jpg,6
+484,Lassie (1994),Adventure|Children,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Lassie_1994.jpg,8
+354,Cobb (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Cobb_1994.jpg,11
+299,Priest (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Priest_1994.jpg,8
+436,Color of Night (1994),Drama|Thriller,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Color_of_Night_1994.jpg,1
+49,When Night Is Falling (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/When_Night_Is_Falling_1995.jpg,10
+202,Total Eclipse (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Total_Eclipse_1995.jpg,5
+427,Boxing Helena (1993),Drama|Mystery|Romance|Thriller,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,data/posters/Boxing_Helena_1993.jpg,8
+320,Suture (1993),Film-Noir|Thriller,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,data/posters/Suture_1993.jpg,10
+216,Billy Madison (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Billy_Madison_1995.jpg,10
+339,While You Were Sleeping (1995),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/While_You_Were_Sleeping_1995.jpg,2
+16,Casino (1995),Crime|Drama,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Casino_1995.jpg,11
+171,Jeffrey (1995),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Jeffrey_1995.jpg,4
+445,Fatal Instinct (1993),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Fatal_Instinct_1993.jpg,5
+48,Pocahontas (1995),Animation|Children|Drama|Musical|Romance,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,data/posters/Pocahontas_1995.jpg,1
+493,Menace II Society (1993),Action|Crime|Drama,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Menace_II_Society_1993.jpg,1
+151,Rob Roy (1995),Action|Drama|Romance|War,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,data/posters/Rob_Roy_1995.jpg,0
+485,Last Action Hero (1993),Action|Adventure|Comedy|Fantasy,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,data/posters/Last_Action_Hero_1993.jpg,1
+215,Before Sunrise (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Before_Sunrise_1995.jpg,3
+170,Hackers (1995),Action|Adventure|Crime|Thriller,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Hackers_1995.jpg,0
+379,Timecop (1994),Action|Sci-Fi|Thriller,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,data/posters/Timecop_1994.jpg,4
+349,Clear and Present Danger (1994),Action|Crime|Drama|Thriller,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Clear_and_Present_Danger_1994.jpg,0
+391,Jason's Lyric (1994),Crime|Drama,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Jasons_Lyric_1994.jpg,8
+218,Boys on the Side (1995),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Boys_on_the_Side_1995.jpg,3
+195,Something to Talk About (1995),Comedy|Drama|Romance,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Something_to_Talk_About_1995.jpg,4
+189,Reckless (1995),Comedy|Fantasy,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,data/posters/Reckless_1995.jpg,11
+237,Forget Paris (1995),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Forget_Paris_1995.jpg,5
+289,Only You (1994),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Only_You_1994.jpg,10
+276,Milk Money (1994),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Milk_Money_1994.jpg,10
+174,Jury Duty (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Jury_Duty_1995.jpg,11
+137,Man of the Year (1995),Documentary,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Man_of_the_Year_1995.jpg,3
+163,Desperado (1995),Action|Romance|Western,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,data/posters/Desperado_1995.jpg,5
+161,Crimson Tide (1995),Drama|Thriller|War,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,data/posters/Crimson_Tide_1995.jpg,11
+70,From Dusk Till Dawn (1996),Action|Comedy|Horror|Thriller,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,data/posters/From_Dusk_Till_Dawn_1996.jpg,6
+93,Vampire in Brooklyn (1995),Comedy|Horror|Romance,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,data/posters/Vampire_in_Brooklyn_1995.jpg,11
+132,Jade (1995),Thriller,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Jade_1995.jpg,8
+448,Fearless (1993),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Fearless_1993.jpg,11
+424,Blue Chips (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Blue_Chips_1994.jpg,11
+206,Unzipped (1995),Documentary,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Unzipped_1995.jpg,11
+196,Species (1995),Horror|Sci-Fi,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,data/posters/Species_1995.jpg,11
+347,Bitter Moon (1992),Drama|Film-Noir|Romance,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,data/posters/Bitter_Moon_1992.jpg,1
+440,Dave (1993),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Dave_1993.jpg,4
+292,Outbreak (1995),Action|Drama|Sci-Fi|Thriller,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,data/posters/Outbreak_1995.jpg,3
+319,Shallow Grave (1994),Comedy|Drama|Thriller,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Shallow_Grave_1994.jpg,5
+311,Relative Fear (1994),Horror|Thriller,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,data/posters/Relative_Fear_1994.jpg,2
+94,Beautiful Girls (1996),Comedy|Drama|Romance,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Beautiful_Girls_1996.jpg,0
+282,Nell (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Nell_1994.jpg,5
+228,Destiny Turns on the Radio (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Destiny_Turns_on_the_Radio_1995.jpg,6
+34,Babe (1995),Children|Drama,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Babe_1995.jpg,5
+410,Addams Family Values (1993),Children|Comedy|Fantasy,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,data/posters/Addams_Family_Values_1993.jpg,5
+455,Free Willy (1993),Adventure|Children|Drama,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Free_Willy_1993.jpg,5
+25,Leaving Las Vegas (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Leaving_Las_Vegas_1995.jpg,11
+165,Die Hard: With a Vengeance (1995),Action|Crime|Thriller,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Die_Hard_with_a_Vengeance_1995.jpg,4
+150,Apollo 13 (1995),Adventure|Drama|IMAX,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,data/posters/Apollo_13_1995.jpg,3
+7,Sabrina (1995),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Sabrina_1995.jpg,10
+444,Even Cowgirls Get the Blues (1993),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Even_Cowgirls_Get_the_Blues_1993.jpg,11
+235,Ed Wood (1994),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Ed_Wood_1994.jpg,10
+205,Unstrung Heroes (1995),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Unstrung_Heroes_1995.jpg,11
+75,Big Bully (1996),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Big_Bully_1996.jpg,1
+44,Mortal Kombat (1995),Action|Adventure|Fantasy,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,data/posters/Mortal_Kombat_1995.jpg,10
+184,Nadja (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Nadja_1994.jpg,1
+304,Roommates (1995),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Roommates_1995.jpg,0
+426,Body Snatchers (1993),Horror|Sci-Fi|Thriller,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,data/posters/Body_Snatchers_1993.jpg,11
+494,Executive Decision (1996),Action|Adventure|Thriller,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Executive_Decision_1996.jpg,0
+417,Barcelona (1994),Comedy|Romance,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/Barcelona_1994.jpg,4
+425,Blue Sky (1994),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Blue_Sky_1994.jpg,4
+415,Another Stakeout (1993),Comedy|Thriller,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Another_Stakeout_1993.jpg,4
+421,Black Beauty (1994),Adventure|Children|Drama,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Black_Beauty_1994.jpg,8
+175,Kids (1995),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Kids_1995.jpg,10
+87,Dunston Checks In (1996),Children|Comedy,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Dunston_Checks_In_1996.jpg,10
+487,Lightning Jack (1994),Comedy|Western,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,data/posters/Lightning_Jack_1994.jpg,6
+451,Flesh and Bone (1993),Drama|Mystery|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,data/posters/Flesh_and_Bone_1993.jpg,11
+17,Sense and Sensibility (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Sense_and_Sensibility_1995.jpg,8
+193,Showgirls (1995),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Showgirls_1995.jpg,6
+279,My Family (1995),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/My_Family_1995.jpg,0
+281,Nobody's Fool (1994),Comedy|Drama|Romance,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Nobodys_Fool_1994.jpg,5
+467,Live Nude Girls (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Live_Nude_Girls_1995.jpg,0
+176,Living in Oblivion (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Living_in_Oblivion_1995.jpg,6
+327,Tank Girl (1995),Action|Comedy|Sci-Fi,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,data/posters/Tank_Girl_1995.jpg,11
+274,Man of the House (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Man_of_the_House_1995.jpg,6
+74,Bed of Roses (1996),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Bed_of_Roses_1996.jpg,11
+168,First Knight (1995),Action|Drama|Romance,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/First_Knight_1995.jpg,5
+21,Get Shorty (1995),Comedy|Crime|Thriller,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Get_Shorty_1995.jpg,6
+155,Beyond Rangoon (1995),Adventure|Drama|War,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,data/posters/Beyond_Rangoon_1995.jpg,4
+316,Stargate (1994),Action|Adventure|Sci-Fi,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,data/posters/Stargate_1994.jpg,8
+14,Nixon (1995),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Nixon_1995.jpg,7
+187,Party Girl (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Party_Girl_1995.jpg,11
+348,Bullets Over Broadway (1994),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Bullets_Over_Broadway_1994.jpg,10
+22,Copycat (1995),Crime|Drama|Horror|Mystery|Thriller,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0,data/posters/Copycat_1995.jpg,4
+241,Fluke (1995),Children|Drama,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Fluke_1995.jpg,5
+2,Jumanji (1995),Adventure|Children|Fantasy,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,data/posters/Jumanji_1995.jpg,4
+249,Immortal Beloved (1994),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Immortal_Beloved_1994.jpg,10
+173,Judge Dredd (1995),Action|Crime|Sci-Fi,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,data/posters/Judge_Dredd_1995.jpg,3
+312,Stuart Saves His Family (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Stuart_Saves_His_Family_1995.jpg,10
+157,Canadian Bacon (1995),Comedy|War,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,data/posters/Canadian_Bacon_1995.jpg,9
+381,When a Man Loves a Woman (1994),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/When_a_Man_Loves_a_Woman_1994.jpg,11
+384,Bad Company (1995),Action|Crime|Drama,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Bad_Company_1995.jpg,11
+61,Eye for an Eye (1996),Drama|Thriller,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Eye_for_an_Eye_1996.jpg,1
+481,Kalifornia (1993),Drama|Thriller,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,data/posters/Kalifornia_1993.jpg,11
+86,White Squall (1996),Action|Adventure|Drama,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/White_Squall_1996.jpg,11
+300,Quiz Show (1994),Drama,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/Quiz_Show_1994.jpg,0
+6,Heat (1995),Action|Crime|Thriller,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Heat_1995.jpg,4
+270,Love Affair (1994),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Love_Affair_1994.jpg,4
+420,Beverly Hills Cop III (1994),Action|Comedy|Crime|Thriller,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Beverly_Hills_Cop_III_1994.jpg,5
+288,Natural Born Killers (1994),Action|Crime|Thriller,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Natural_Born_Killers_1994.jpg,11
+466,Hot Shots! Part Deux (1993),Action|Comedy|War,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,data/posters/Hot_Shots_Part_Deux_1993.jpg,0
+441,Dazed and Confused (1993),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Dazed_and_Confused_1993.jpg,6
+160,Congo (1995),Action|Adventure|Mystery|Sci-Fi,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,data/posters/Congo_1995.jpg,3
+474,In the Line of Fire (1993),Action|Thriller,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/In_the_Line_of_Fire_1993.jpg,0
+479,Judgment Night (1993),Action|Crime|Thriller,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Judgment_Night_1993.jpg,10
+5,Father of the Bride Part II (1995),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Father_of_the_Bride_Part_II_1995.jpg,0
+223,Clerks (1994),Comedy,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,data/posters/Clerks_1994.jpg,6
+236,French Kiss (1995),Action|Comedy|Romance,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,data/posters/French_Kiss_1995.jpg,8
+240,Hideaway (1995),Thriller,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,data/posters/Hideaway_1995.jpg,0
+450,With Honors (1994),Comedy|Drama,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,data/posters/With_Honors_1994.jpg,1
+222,Circle of Friends (1995),Drama|Romance,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,data/posters/Circle_of_Friends_1995.jpg,11
