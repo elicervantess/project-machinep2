@@ -177,6 +177,19 @@ def load_artifacts():
     pca_mean = np.load(pca_mean_path) # (d_orig,)
     pca_components = np.load(pca_components_path) # (d_orig, k)
 
+    # Reparar rutas de pósters: buscar en app_artifacts si no existen en data
+    def fix_poster_path(path):
+        if os.path.exists(path):
+            return path
+        # Intentar en app_artifacts/posters/
+        filename = os.path.basename(path)
+        fallback = os.path.join(APP_ARTIFACTS_DIR, "posters", filename)
+        if os.path.exists(fallback):
+            return fallback
+        return path  # devolver original aunque no exista
+    
+    df_train["poster_path"] = df_train["poster_path"].apply(fix_poster_path)
+
     # sacamos el año del título para filtrado por año
     years = []
     for t in df_train["title"]:
