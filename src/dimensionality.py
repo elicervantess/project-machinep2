@@ -3,9 +3,11 @@ from .config import N_COMPONENTS
 
 def pca_fit_transform(X, n_components=N_COMPONENTS):
     """
-    PCA manual:
+    PCA manual optimizado:
+    - Si n_features > n_samples, usa SVD (más eficiente en memoria)
+    - Si n_features <= n_samples, usa eigendecomposition de covarianza
     1. centrar
-    2. cov = X^T X / (n-1)
+    2. cov = X^T X / (n-1) o usar SVD
     3. autovalores/vectores
     4. ordenar por energía
     5. proyectar
@@ -14,22 +16,36 @@ def pca_fit_transform(X, n_components=N_COMPONENTS):
     # centramos
     mean_vec = np.mean(X, axis=0, keepdims=True)
     Xc = X - mean_vec
+    
+    n_samples, n_features = Xc.shape
+    k = min(n_components, min(n_samples, n_features))
+    
+    # Si tenemos muchas más features que muestras, usar SVD es más eficiente
+    if n_features > n_samples or n_features > 1000:
+        print(f"   Usando SVD (n_samples={n_samples}, n_features={n_features})")
+        # SVD: Xc = U @ diag(S) @ Vt
+        # Componentes principales están en Vt (filas)
+        U, S, Vt = np.linalg.svd(Xc, full_matrices=False)
+        components = Vt[:k, :].T  # d x k (columnas son componentes)
+        X_proj = U[:, :k] * S[:k]  # n x k
+        # Varianza explicada: S^2 / (n-1)
+        vals = (S[:k] ** 2) / (n_samples - 1)
+    else:
+        print(f"   Usando eigendecomposition (n_samples={n_samples}, n_features={n_features})")
+        # covarianza (dxd)
+        cov = np.dot(Xc.T, Xc) / (n_samples - 1)
 
-    # covarianza (dxd)
-    cov = np.dot(Xc.T, Xc) / (Xc.shape[0] - 1)
+        # autovalores / autovectores
+        vals, vecs = np.linalg.eigh(cov)  # eigh porque cov es simétrica
 
-    # autovalores / autovectores
-    vals, vecs = np.linalg.eigh(cov)  # eigh porque cov es simétrica
+        # ordenar de mayor a menor autovalor
+        order = np.argsort(vals)[::-1]
+        vals = vals[order]
+        vecs = vecs[:, order]
 
-    # ordenar de mayor a menor autovalor
-    order = np.argsort(vals)[::-1]
-    vals = vals[order]
-    vecs = vecs[:, order]
-
-    # truncar
-    k = min(n_components, vecs.shape[1])
-    components = vecs[:, :k]              # d x k
-    X_proj = np.dot(Xc, components)       # n x k
+        # truncar
+        components = vecs[:, :k]              # d x k
+        X_proj = np.dot(Xc, components)       # n x k
 
     return X_proj, mean_vec, components, vals[:k]
 
